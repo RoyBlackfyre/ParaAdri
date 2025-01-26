@@ -1,0 +1,51 @@
+body {
+    display:flex;
+    flex-direction: column;
+    max-height: 100vh;
+    min-height: 100vh;
+    flex: 1 1 1;
+    justify-content: space-around;
+}
+#titulo {
+    display:flex;
+    flex-direction: row;
+    font-size: 10vw;
+    margin: 0 auto;
+    height: 20%;
+}
+
+.respuesta {
+    height: 20%;
+}
+
+.no {
+    width: 12vw;
+    padding: 0;
+    height: 8vw;
+    background: url('Black.webp');
+    background-size:contain;
+    background-position: center;
+    border : .2vw solid black;
+    outline : none;
+    color:white;
+    font-size: 7vw;
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.si {
+    width: 12vw;
+    padding: 0;
+    height: 8vw;
+    background: url('Piolin.png');
+    background-size:contain;
+    background-position: center;
+    border : .2vw solid black;
+    outline : none;
+    color:white;
+    font-size: 7vw;
+    text-shadow: -1px -1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+#hello-kitty {
+    width:40%
+}
