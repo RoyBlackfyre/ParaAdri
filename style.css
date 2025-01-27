@@ -1,10 +1,9 @@
 body {
     display:flex;
     flex-direction: column;
-    max-height: 100vh;
-    min-height: 100vh;
-    flex: 1 1 1;
-    justify-content: space-around;
+    height: 100vh;
+
+    
 }
 #titulo {
     display:flex;
@@ -16,6 +15,10 @@ body {
 
 .respuesta {
     height: 20%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .no {
@@ -48,4 +51,12 @@ body {
 
 #hello-kitty {
     width:40%
+}
+
+#teamo {
+    position:absolute;
+    width:70vw;
+    left:15vw;
+    top:50vh;
+    display:none;
 }
